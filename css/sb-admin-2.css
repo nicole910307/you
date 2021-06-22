@@ -238,7 +238,7 @@ button:focus:not(:focus-visible) {
   outline: 0;
 }
 
-input,
+s,
 button,
 select,
 optgroup,
@@ -6411,7 +6411,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #FF8282 !important;
+  background-color !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
