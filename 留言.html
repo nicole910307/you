@@ -1,0 +1,304 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>捷運美食圖</title>
+    <body style="background-color:Snow;">
+</body>
+    
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav  sidebar sidebar-dark accordion" style="background-color: PaleVioletRed;" id="accordionSidebar">
+
+    <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+              
+
+                </div>
+                <div class="sidebar-brand-text mx-3">美食圖 <sup>++</sup></div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>藍綠線捷運圖</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Interface
+            </div>
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>選單</span>
+                </a>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">software menu:</h6>
+                        <a class="collapse-item" href="綠線程式碼.html">綠線</a>
+                        <a class="collapse-item" href="cards.html">藍線</a>
+                        <a class="collapse-item" href="留言.html">留言板</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Nav Item - Utilities Collapse Menu -->
+           
+
+            <!-- Divider -->
+       
+
+            <!-- Heading -->
+            
+
+            <!-- Nav Item - Pages Collapse Menu -->
+           
+            <!-- Nav Item - Charts -->
+         
+            <!-- Nav Item - Tables -->
+       
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+            <!-- Sidebar Message -->
+            
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+       
+
+
+
+
+
+
+       <head>
+           <meta charset="gb2312">
+           <title>記事本</title>
+           <style type="text/css">
+           *{margin:0; padding:0;}
+           body,input{font-size:14px; line-height:24px; color:#333; font-family:Microsoft yahei, Song, Arial, Helvetica, Tahoma, Geneva;}
+           h1{margin-bottom:15px; height:100px; line-height:100px; text-align:center; font-size:24px; color:#fff; background:black;}
+          #content #post,#comment p{zoom:1;}
+          #content #post:after,#comment p:after{display:block; height:0; clear:both; visibility:hidden; overflow:hidden; content:'.';}
+          .transition{-webkit-transition:all 0.5s linear; -moz-transition:all 0.5s linear; -o-transition:all 0.5s linear; -ms-transition:all 0.5s linear; transition:all 0.5s linear;}
+          #content{margin:0 auto; width:960px; overflow:hidden;}
+          #content #post{margin-bottom:15px; padding-bottom:15px; border-bottom:1px #d4d4d4 dashed;
+                   height: 556px;
+               }
+          #content #post textarea{display:block; margin-bottom:10px; padding:5px; width:948px; height:390px; border:1px #d1d1d1 solid; border-radius:5px; resize:none; outline:none;}
+          #content #post textarea:hover{border:1px #9bdf70 solid; background:#f0fbeb;}
+          #content #post #postBt,#content #post #clearBt{margin-left:5px; padding:3px; float:right;}
+          #comment{overflow:hidden;}
+          #comment p{margin-bottom:10px; padding:10px; border-radius:5px;}
+         #comment p:nth-child(odd){border:1px solid #e3e197; background:#ffd;}
+          #comment p:nth-child(even){border:1px solid #adcd3c; background:#f2fddb;}
+          /*#comment p span{display:inline; float:left;}*/
+          #comment p .right{text-align:right;}
+          #comment p .msg{width:738px;}
+          #comment p .datetime{width:200px; color:#999; text-align:right;}
+
+
+
+          </style>
+         <script type="text/javascript">
+             var named;
+             function delete1(id)
+             {
+                 localStorage.removeItem(id);
+                 this.Storage.writeData();
+             }
+             function prom() {
+
+                 var name = prompt("請輸入您的名字", "");//將輸入的內容賦給變量 name ，
+                 named = name;
+                 //這里需要注意的是，prompt有兩個參數，前面是提示的話，后面是當對話框出來后，在對話框里的默認值
+
+                 if (named)//如果返回的有內容
+
+                 {
+
+                     alert("歡迎您：" + name)
+                     document.getElementById("shangtian").style.display = "none";
+                     document.getElementById("ritian").value = named;
+
+                 }
+                 else {
+                     document.getElementById("ritian").value = "匿名發言者";
+                 }
+
+             }
+          var Storage =
+          {
+              saveData:function()//保存數據
+              {
+    
+                      var data = document.querySelector("#post textarea");
+                  if(data.value != "")
+                  {
+                      var time = new Date().getTime() + Math.random() * 5;//getTime是Date對象中的方法，作用是返回 1970年01月01日至今的毫秒數
+                      if (named) {
+                          localStorage.setItem(time, data.value + "|" + named + "|" + this.getDateTime());//將毫秒數存入Key值中，可以降低Key值重復率
+                      }
+                      else
+                      {
+                          localStorage.setItem(time, data.value + "|" + "匿名發言者" + "|" + this.getDateTime());//將毫秒數存入Key值中，可以降低Key值重復率
+                      }
+
+                      data.value = "";
+                      this.writeData();
+                  }
+                  else
+                  {
+                      alert("請填寫您的留言！");
+                 }
+              },
+              writeData:function()//輸出數據
+              {
+                 var dataHtml = "", data = "";
+                  for(var i = localStorage.length-1; i >= 0; i--)//效率更高的循環方法
+                  {
+                      data = localStorage.getItem(localStorage.key(i)).split("|");
+ 
+                          //dataHtml += "<p><span class=\"msg\">" + data[0] + "</span><span class=\"datetime\">" + data[1] + "</span><span>" + data[2]+"</span></p>";
+                      dataHtml += "<span style=>" + data[1] + "<span style=\"float:right\">" + data[2] + "</span><p><span class=\"msg\">" + data[0] + "<input style=\"float:right;border:none;border-radius:5px;\" id=\"clearBt\" type=\"button\" onclick=\"delete1(" + localStorage.key(i) + ");\" value=\"刪除\"/>" + "</span></p>";
+                  }
+                  document.getElementById("comment").innerHTML = dataHtml;
+              },
+              clearData:function()//清空數據
+              {
+                  if(localStorage.length > 0)
+                  {
+                      if(window.confirm("清空后不可恢復，是否確認清空？"))
+                      {
+                          localStorage.clear();
+                          this.writeData();
+                      }
+                  }
+                  else
+                 {
+                     alert("沒有需要清空的數據！");
+                  }
+              },
+              getDateTime:function()//獲取日期時間，例如 2012-03-08 12:58:58
+              {
+                  var isZero = function(num)//私有方法，自動補零
+                  {
+                      if(num < 10)
+                     {
+                          num = "0" + num;
+                      }
+                      return num;
+                  }
+                  
+                  var d = new Date();
+                  return d.getFullYear() + "-" + isZero(d.getMonth() + 1) + "-" + isZero(d.getDate()) + " " + isZero(d.getHours()) + ":" + isZero(d.getMinutes()) + ":" + isZero(d.getSeconds());
+              }            
+          }
+          
+          window.onload = function()
+          {
+              Storage.writeData();//當打開頁面的時候，先將localStorage中的數據輸出一邊，如果沒有數據，則輸出空
+              document.getElementById("postBt").onclick = function(){Storage.saveData();}//發表評論按鈕添加點擊事件，作用是將localStorage中的數據輸出
+              document.getElementById("clearBt").onclick = function(){Storage.clearData();}//清空所有已保存的數據
+          }
+
+
+
+
+
+          </script>
+      </head>
+      
+      <body>
+          <h1>留言板</h1>
+
+          <div id="content">
+              <div id="post">
+                  <div style="background:#3EADC5 ;height:30px;">
+                      昵稱：<input type="submit" id="shangtian" name="Submit3" style="border:none; background-color:#3EADC5; color:white;" value="默認用戶點擊改變" onclick="prom()" />
+                      <input type="text" id="ritian" style="border:none; background-color:#3EADC5; color:white;"   onclick="prom()"/>
+                      <!--disabled="disabled"-->
+                  </div>
+                  <div>
+                  <textarea class="transition"></textarea>
+                      </div>
+                  <input id="postBt" type="button" style="border:none; background-color:#3EADC5; color:white;border-radius:5px; width:80px; height:30px;" value="發表留言"/>
+                 <input id="clearBt" type="button" style="border:none; background-color:#3EADC5; color:white;border-radius:5px; width:80px; height:30px;" value="清空"/>
+             </div>
+             <div id="comment"></div>
+              </div>
+          </body>
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>
+
+</body>
+
+</html>
