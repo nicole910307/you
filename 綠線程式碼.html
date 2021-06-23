@@ -199,11 +199,40 @@
         </div>
 
                     <div class="col-lg-4">
-                       <div class="test">
-                            <span class="bot"></span>
-                            <span class="top"></span>
-                            點擊站名
-                        </div>
+                       <style>
+                       test{
+                             width:300px;
+                        padding:80px 20px;
+                        margin-left:100px;
+                        background:#beceeb;
+                        -webkit-border-top-left-radius:220px 120px;
+                        -webkit-border-top-right-radius:220px 120px;
+                        -webkit-border-bottom-right-radius:220px 120px;
+                        -webkit-border-bottom-left-radius:220px 120px;
+                        -moz-border-radius:220px / 120px;
+                        border-radius:220px / 120px;
+                        position:relative;
+                    }
+                    .test span{width:0; height:0; font-size:0; background:#beceeb; overflow:hidden; position:absolute;}
+                    .test span.bot{
+                        width:30px;
+                        height:30px;
+                        -moz-border-radius:30px;
+                        -webkit-border-radius:30px;
+                        border-radius:30px;
+                        left:10px;
+                        bottom:-20px;
+                    }
+                    .test span.top{
+                        width:15px;
+                        height:15px;
+                        -moz-border-radius:15px;
+                        -webkit-border-radius:15px;
+                        border-radius:15px;
+                        left:0px;
+                        bottom:-40px;
+                    }
+                </style>
 
                       <img src="img/妹妹.jpg" width="300" height="350">
                 </div>
